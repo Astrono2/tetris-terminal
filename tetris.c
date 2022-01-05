@@ -372,7 +372,6 @@ int main()
 			printf("The game has been paused.\nPress 'P' again to resume.\n\n");
 			printf("CONTROLS:\n	LEFT:                LEFT ARROW KEY\n	RIGHT:               RIGHT ARROW KEY\n	DOWN:                DOWN ARROW KEY\n	CLOCKWISE TURN:      'X' KEY\n	ANTI-CLOCKWISE TURN: 'Z' KEY\n	PAUSE:               'P' KEY\n	CLOSE THE GAME:       ESCAPE KEY\n");
 			printf("\nIf you want to have a good time I recommend not spamming keys, as the game will start lagging.");
-			printf("\n\n\n\n\n\n\n\nTrademark 2019 The Montani International Corporation & Associates.");
 		}
 
 		if(paused == 0) frameCount = (frameCount+1)%(20000-20*level); else frameCount = 1;
@@ -436,7 +435,6 @@ int lose(int finalPoints, int finalLevel)
 	else suffix = "th";
 
 	printf("You got to the %d%s level.", finalLevel, suffix);
-	printf("\n\n\n\n\n\n\n\nTrademark 2019 The Montani International Corporation & Associates.\n");
 	system("pause");
 
 	escape = 1;
